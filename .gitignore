@@ -32,7 +32,6 @@ job_notifier.log
 *.cron.log
 last_check.force
 last_scrape.timestamp
-telegram_ready.md
 
 # Temporary files
 .DS_Store
@@ -70,13 +69,10 @@ challenge.png
 *.swo
 *~
 
-# Job files generated dynamically
-fresh_jobs.md
-job_notifications.md
-filtered_jobs_summary.md
-last_notification.txt
-last_scrape.timestamp
-telegram_ready.md
+# Job files generated dynamically (exclude actual data files but keep templates)
+#fresh_jobs.md (templates allowed, actual data excluded based on timestamp)
+#job_notifications.md (templates allowed, actual data excluded based on timestamp)
+#filtered_jobs_summary.md (templates allowed, actual data excluded based on timestamp)
 
 # Build outputs
 dist/
@@ -86,3 +82,13 @@ build/
 htmlcov/
 .tox/
 *.rst
+
+# OpenClaw memory files (personal/private - DON'T COMMIT)
+memory/
+MEMORY.md
+*.password
+*.secret
+*credentials*
+access_token
+refresh_token
+openclaw_token
