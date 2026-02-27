@@ -1,0 +1,22 @@
+{
+  "name": "job-search-automation",
+  "version": "1.0.0",
+  "description": "Automated job search and monitoring system",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "monitor": "node scraper.js",
+    "test": "node -e \"console.log('Testing matcher...'); require('./matcher').test()\"",
+    "config": "cat config.json | jq ."
+  },
+  "keywords": ["jobs", "automation", "monitoring"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

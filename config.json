@@ -1,0 +1,46 @@
+{
+  "user": {
+    "first_name": "Prateek",
+    "last_name": "Gaur",
+    "email": "gaur.prateek.1609@gmail.com",
+    "phone": "8290942415",
+    "city": "Noida, India",
+    "linkedin_url": "https://www.linkedin.com/in/gaur-prateek",
+    "portfolio_url": "http://www.prateekgaur.in",
+    "experience_years": 1.5,
+    "notice_period": "30 days",
+    "current_role": "AI Engineer"
+  },
+  "job_preferences": {
+    "titles": [
+      "AI Engineer",
+      "ML Engineer",
+      "NLP Engineer",
+      "Computer Vision Engineer",
+      "LLM Engineer"
+    ],
+    "locations": [
+      "Remote",
+      "Noida",
+      "Gurgaon"
+    ],
+    "experience_levels": [
+      "Associate",
+      "Entry level"
+    ],
+    "job_types": [
+      "Full-time",
+      "Contract"
+    ],
+    "remote_allowed": true,
+    "blacklist_companies": []
+  },
+  "application": {
+    "resume_path": "jobs/resume.pdf",
+    "cover_letter_template": "jobs/cover_letter.txt"
+  },
+  "linkedin": {
+    "cookies_path": "jobs/cookies.json",
+    "easy_apply_only": true
+  }
+}
